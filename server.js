@@ -31,3 +31,6 @@ app.listen(PORT, HOST);
 
 //mit der Anweisung console.log wird im server administrator auf der Konsole angezeigt, was der server macht. Der Programmierer schreibt dazu in die runde Klammern den ausdruck der auf der Konsole angezeigt werden soll. die werte der beiden konstanten HOST und PORT werden in den Ausdruck übergegeben ein Verb mit anschließenden runden Klammern steht immer für eine Anweisung etwas zu tun
 console.log(`Running on http://${HOST}:${PORT}`);
+
+require('./Uebung /01-grundlagen');
+
