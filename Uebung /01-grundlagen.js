@@ -84,17 +84,57 @@ console.log(endkapital);
 //NAch dem 1 Jahr erhöht sich das Endkapital um den Faktor* 1,1
 endkapital = startkapital * (1 + zinssatz) ;
 console.log(endkapital);
- 
- console.log("Aufgabe 8");
- console.log("In aufgabe sieben wurde die Anweisung endkapital = ... mehrfach wiederholt");
-console.log("um sich Tiparbeit zu Sparen und die wiederholung Anweisung in der gewünschten Häufigkeit durchzuführen ");
-console.log("nutzt der Programierer eine Schleife.");
- 
-startkapital = 100;
-endkapital = startkapital;
-zinssatz = 0.1;
-laufzeit= 3;
- for (let i = 0; 0 < laufzeit; i++) {endkapital = endkapital * (1+ zinssatz);
-    console.log("endkapitalNachJahr"+ (i+1) + ": " +endkapital + "EUR.");}
 
+
+console.log('Aufgabe 10');
+console.log('Versandkostenberechnung:');
+console.log('Wenn der Gesamtbetrag des Einkaufs größer oder gleich 200 Euro ist, ist der Versand kostenlos.');
+console.log('Wenn der Gesamtbetrag des Einkaufs zwischen 100 und weniger als 200 Euro liegt, betragen die Versandkosten 5 Euro.');
+console.log('Ansonsten betragen die Versandkosten 10 Euro.');
+
+let Gesamtbetrag = 150;
+let versandkosten;
+
+if (Gesamtbetrag >= 200) {
+    versandkosten = 0;
+} else if (Gesamtbetrag >= 100 && Gesamtbetrag <= 199) {
+    versandkosten = 5;
+} else {
+    versandkosten = 10;
+}
+
+console.log('Die Versandkosten betragen:', versandkosten + ' Euro');
+
+let GesamtbetragMitVersand = Gesamtbetrag + versandkosten;
+console.log('Der Gesamtbetrag inklusive Versandkosten beträgt:', GesamtbetragMitVersand + ' Euro');
+
+
+console.log('Aufgabe 11');
+console.log('Rabattberechnung:');
+console.log('Wenn der Gesamtbetrag des Einkaufs größer oder gleich 100 Euro ist, beträgt der Rabatt 20%.');
+console.log('Wenn der Gesamtbetrag des Einkaufs zwischen 50 und 99 Euro liegt, beträgt der Rabatt 10%.');
+console.log('Ansonsten gibt es keinen Rabatt.');
  
+ Gesamtbetrag = 49;
+ discount; 
+ 
+if (Gesamtbetrag >= 100) {
+    discount = 20;
+} else if (gesamtbetrag >= 50 && gesamtbetrag <= 99) {
+    discount = 10;
+} else {
+    discount = 0;
+}
+ 
+console.log('Der Rabatt beträgt:', discount + '%');
+ 
+console.log('Aufgabe 13')
+console.log('frauen ab 18 zahlen 10 euro eintritt, männer ab 18 zahlen 15 euro eintritt')
+
+let eintritt;
+let alter = 10;
+let geschlecht = 'm'
+let geschlecht = 'w'
+
+if (geschlecht ===  'w' && alter >== 18)
+    eintritt 10
