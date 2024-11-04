@@ -116,7 +116,7 @@ console.log('Wenn der Gesamtbetrag des Einkaufs zwischen 50 und 99 Euro liegt, b
 console.log('Ansonsten gibt es keinen Rabatt.');
  
  Gesamtbetrag = 49;
- discount; 
+ discount; 10%
  
 if (Gesamtbetrag >= 100) {
     discount = 20;
@@ -131,10 +131,3 @@ console.log('Der Rabatt beträgt:', discount + '%');
 console.log('Aufgabe 13')
 console.log('frauen ab 18 zahlen 10 euro eintritt, männer ab 18 zahlen 15 euro eintritt')
 
-let eintritt;
-let alter = 10;
-let geschlecht = 'm'
-let geschlecht = 'w'
-
-if (geschlecht ===  'w' && alter >== 18)
-    eintritt 10
